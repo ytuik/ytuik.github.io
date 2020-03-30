@@ -91,3 +91,11 @@ function RollCaesarTheDoButWithoutTheCypher(a){
 document.getElementById("saida").innerHTML = resposta;
 
 }
+
+function Info(){
+    var WInfo = document.getElementById("CesarBtn").value;
+    var ExCesar = "O método de encriptação usado pela cifra de César consiste em somar um valor fixo em cada letra da mensagem e retornar o resultado obtido."
+    if (WInfo == "1"){
+        alert(ExCesar);
+    }
+}
